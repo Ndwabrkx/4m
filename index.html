@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <style>
+        body {
+            background-color: #ffe6e6;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            padding: 50px;
+        }
+        .love-note {
+            font-size: 20px;
+            color: #d63384;
+            background: #fff0f5;
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .heart {
+            font-size: 40px;
+        }
+        .love-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .love-button:hover {
+            background-color: #d63384;
+        }
+        .hidden-poem {
+            display: none;
+            font-size: 18px;
+            color: #b3003b;
+            margin-top: 20px;
+            background: #fff0f5;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="love-note">
+        <p>💕 My dearest love, my moon, my brightest light and my softest night. Every moment with you is a miracle wrapped in warmth. You are my sweetest adventure, my endless joy. I am endlessly grateful for you, for your laughter, your hair pulls, The hugs that make me melt, the kisses, the pats, the trust, your kindness, and the love you shower upon me. Every heartbeat of mine echoes with love for you, stronger than the tides, deeper than the skies. I love you more than words can ever hold. These 4 months have been the best 4 months of my life yet, with more to experience and infinity to be together, lets keep the kelani, kisses and maggi in momo foreverrrr. I LOVE YOU  💖</p>
+    </div>
+    <br>
+    <button class="love-button" onclick="showPoem()">Click for Vladimir Naberryman</button>
+    <div class="hidden-poem" id="poem">
+        <p>My Little Devil, my queen of the underworlds,<br>
+           In your eyes, the fire of love swirls.<br>
+           My mountain, strong and bold,<br>
+           In your arms, my heart is gold. 💕</p>
+    </div>
+    <script>
+        function showPoem() {
+            document.getElementById('poem').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
